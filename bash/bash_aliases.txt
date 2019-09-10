@@ -1,0 +1,47 @@
+## Git commands
+alias gcl='git clone'
+alias gf='git fetch'
+alias gco='git checkout'
+alias gcm='git checkout master'
+alias gst='git status'
+alias g='git'
+alias grm='git rebase master -i'
+alias gpo='git push origin'
+alias gmumff='git merge upstream/master --ff-only'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gfu='git fetch upstream'
+alias gfo='git fetch origin'
+alias gsign='git commit --amend -s'
+
+## Reana commands
+alias rc='reana-client'
+alias rd='reana-dev'
+
+## Kubectl commands
+alias kgp='kubectl get pods'
+alias kl='kubectl logs'
+alias kdp='kubectl describe pod'
+
+##
+alias su='sudo -i'
+
+## Colorize the ls output ##
+alias ls='ls --color=auto'
+
+## Use a long listing format ##
+alias ll='ls -la'
+
+## Show hidden files ##
+alias l.='ls -d .* --color=auto'
+
+# distro specific  - Debian / Ubuntu and friends #
+# install with apt-get
+alias apt-get="sudo apt-get"
+alias updatey="sudo apt-get --yes"
+
+# update on one command
+alias update='sudo apt-get update && sudo apt-get upgrade'
+
+alias chrome='/opt/google/chrome/chrome'
+
