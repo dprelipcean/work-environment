@@ -12,6 +12,7 @@ alias ga='git add'
 alias gcm='git commit -m'
 alias gfu='git fetch upstream'
 alias gfo='git fetch origin'
+alias gca='git commit --amend'
 alias gsign='git commit --amend -s'
 
 ## Reana commands
